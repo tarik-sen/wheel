@@ -25,7 +25,7 @@ int main() {
     return 0;
 }
 ```
-> All sort algorithms can be included with wheel/sort/sort.hpp
+> All sort algorithms can be included with wheel/sort/sort.hpp<br>
   Sort algorithms also can be included individually like wheel/sort/selection_sort.hpp
 
 ## Installation
