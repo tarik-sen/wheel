@@ -47,7 +47,7 @@ sudo apt install gcc cmake libbenchmark-dev libgtest-dev
 
 ### Installing the library
 ```bash
-git clone 'https://github.com/tarik/wheel' && cd wheel
+git clone 'https://github.com/tarik/wheel.git' && cd wheel
 mkdir build && cd build
 cmake ..
 sudo make install
