@@ -1,7 +1,6 @@
 # Wheel
 Wheel is a header-only C++ library that contains generic algorithms as well as implementation of 13 different sorting algorithms.
-Most of the sort algorithms implemented in such a way that it can be used to sort any container which implements any Iterator type (forward, bidirectional or random access) and their corresponding begin() and end() methods. 
-Each sort algorithm takes the begging and end of the container with additional parameters. (like number of buckets for bucket sort)
+Most of the sort algorithms implemented in such a way that it can be used to sort any container which implements any Iterator type (forward, bidirectional or random access) and their corresponding begin() and end() methods.
 
 ## Sample Benchmark
 <img src=docs/benchmark_result.png width=500px>
@@ -27,7 +26,7 @@ int main() {
 }
 ```
 > All sort algorithms can be included with wheel/sort/sort.hpp
-> Sort algorithms also can be included individually like wheel/sort/selection_sort.hpp
+  Sort algorithms also can be included individually like wheel/sort/selection_sort.hpp
 
 ## Installation
 ### Requirements:
