@@ -76,5 +76,5 @@ g++ generic_benchmark.cpp -std=c++20 -lbenchmark -lpthread -o sort_benchmark
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
