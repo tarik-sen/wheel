@@ -28,6 +28,7 @@ int main() {
 > All sort algorithms can be included with wheel/sort/sort.hpp<br>
   Sort algorithms also can be included individually like wheel/sort/selection_sort.hpp
 
+<br>
 ## Installation
 ### Requirements:
   - Compiler that supports C++20
@@ -44,6 +45,7 @@ For more about installation of these requirements please refer their own documen
 sudo apt install gcc cmake libbenchmark-dev libgtest-dev
 ```
 
+<br>
 ### Installing the library
 ```bash
 git clone 'https://github.com/tarik-sen/wheel.git' && cd wheel
@@ -52,6 +54,7 @@ cmake ..
 sudo make install
 ```
 
+<br>
 ### Testing the library
 > ⚠️ Tests are written with 'Google Test' so installation of the optional requirement is a must.
 ```bash
@@ -66,6 +69,7 @@ Tests can be run individually like this
 g++ quick_sort_test.cpp -std=c++20 -lgtest -lgtest_main -pthread -o quick_sort_test
 ```
 
+<br>
 ### Benchmarking the library
 > ⚠️ Benchmarks are written with 'Google Benchmark' so installation of the optional requirement is a must.
 ```bash
